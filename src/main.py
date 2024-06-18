@@ -2,7 +2,7 @@ from fastapi import FastAPI, HTTPException, Query
 from fastapi.openapi.utils import get_openapi
 from pydantic import BaseModel
 
-from utils import translator
+from src.utils import translator
 
 app = FastAPI()
 
