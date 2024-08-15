@@ -11,7 +11,11 @@ An AI powered translator built with FastAPI.
 
 * Run the development server with `fastapi dev src/main.py`
 
-> The required models will be downloaded on the first execution. Therefore, the first API response will take some time.
+### Note
+
+* The required models will be downloaded on the first execution.
+  * Models to be downloaded: `pytorch_model.bin`. Location: `~/.cache/huggingface/hub/` 
+* Therefore, the first API response will take some time.
 
 ## Resources
 
