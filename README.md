@@ -11,6 +11,8 @@ An AI powered translator built with FastAPI.
 
 * Run the development server with `fastapi dev src/main.py`
 
+> The required models will be downloaded on the first execution. Therefore, the first API response will take some time.
+
 ## Resources
 
 * API: http://127.0.0.1:8000
