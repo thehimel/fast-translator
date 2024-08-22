@@ -9,7 +9,8 @@ An AI powered translator built with FastAPI.
 
 ## Run the Server
 
-* Run the development server with `fastapi dev src/main.py`
+* `fastapi dev src/main.py`
+* `uvicorn src.main:app --host 127.0.0.1 --port 8080`
 
 ### Note
 
