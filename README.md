@@ -20,5 +20,5 @@ An AI powered translator built with FastAPI.
 
 ## Resources
 
-* API: http://127.0.0.1:8000
-* Swagger UI: http://127.0.0.1:8000/docs
+* API: http://127.0.0.1:8080
+* Swagger UI: http://127.0.0.1:8080/docs
